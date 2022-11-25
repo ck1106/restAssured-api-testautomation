@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 88.236 sec <<< FAILURE! - in TestSuite
+content_Type(com.datadrivenapi.test.TC001_Get_All_EmployeeData)  Time elapsed: 0.066 sec  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.datadrivenapi.test.TC001_Get_All_EmployeeData.content_Type(TC001_Get_All_EmployeeData.java:57)
+
+statusCode(com.datadrivenapi.test.TC001_Get_All_EmployeeData)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.datadrivenapi.test.TC001_Get_All_EmployeeData.statusCode(TC001_Get_All_EmployeeData.java:41)
+
+Content_Encoding(com.datadrivenapi.test.TC004_Update_Employee_Record)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [br] but found [gzip]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.datadrivenapi.test.TC004_Update_Employee_Record.Content_Encoding(TC004_Update_Employee_Record.java:79)
+
+GetResponseBody(com.datadrivenapi.test.TC004_Update_Employee_Record)  Time elapsed: 0.067 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.datadrivenapi.test.TC004_Update_Employee_Record.GetResponseBody(TC004_Update_Employee_Record.java:38)
+

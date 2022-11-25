@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.268" tests="17" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\time\Downloads\Compressed\DataDrivenApiTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\time\Downloads\Compressed\DataDrivenApiTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\time\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_321\bin;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_321\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\time"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="time"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Content_Encoding" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.035"/>
+  <testcase name="Get_ResponseTime" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.004"/>
+  <testcase name="content_Type" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.066">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.datadrivenapi.test.TC001_Get_All_EmployeeData.content_Type(TC001_Get_All_EmployeeData.java:57)
+</failure>
+    <system-out><![CDATA[2022-11-25 18:23:44 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-11-25 18:23:44 DEBUG DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-11-25 18:23:45 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-11-25 18:23:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-11-25 18:23:45 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-11-25 18:23:45 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-11-25 18:23:45 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
+2022-11-25 18:23:45 DEBUG DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-11-25 18:23:45 DEBUG wire:73 -  >> "[\r][\n]"
+2022-11-25 18:23:45 DEBUG headers:278 - >> GET /api/v1/employees HTTP/1.1
+2022-11-25 18:23:45 DEBUG headers:281 - >> Accept: */*
+2022-11-25 18:23:45 DEBUG headers:281 - >> Host: dummy.restapiexample.com
+2022-11-25 18:23:45 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-11-25 18:23:45 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)
+2022-11-25 18:23:45 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-11-25 18:23:46 DEBUG wire:73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Date: Fri, 25 Nov 2022 18:23:54 GMT[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Expires: Thu, 24 Nov 2022 18:23:55 GMT[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Pagespeed: off[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Response: 429[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Retry-After: 17[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Server: nginx/1.21.6[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Middleton-Response: 429[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Ratelimit-Reset: 1669400652[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:23:46 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 429 Too Many Requests
+2022-11-25 18:23:46 DEBUG headers:262 - << HTTP/1.1 429 Too Many Requests
+2022-11-25 18:23:46 DEBUG headers:265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+2022-11-25 18:23:46 DEBUG headers:265 - << Content-Encoding: gzip
+2022-11-25 18:23:46 DEBUG headers:265 - << Content-Type: text/html; charset=UTF-8
+2022-11-25 18:23:46 DEBUG headers:265 - << Date: Fri, 25 Nov 2022 18:23:54 GMT
+2022-11-25 18:23:46 DEBUG headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:23:46 DEBUG headers:265 - << Expires: Thu, 24 Nov 2022 18:23:55 GMT
+2022-11-25 18:23:46 DEBUG headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-11-25 18:23:46 DEBUG headers:265 - << Pagespeed: off
+2022-11-25 18:23:46 DEBUG headers:265 - << Response: 429
+2022-11-25 18:23:46 DEBUG headers:265 - << Retry-After: 17
+2022-11-25 18:23:46 DEBUG headers:265 - << Server: nginx/1.21.6
+2022-11-25 18:23:46 DEBUG headers:265 - << Vary: Accept-Encoding,User-Agent,Origin
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Endurance-Cache-Level: 2
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Ezoic-Cdn: Miss
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Middleton-Response: 429
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Nginx-Cache: WordPress
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Ratelimit-Limit: 60
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Ratelimit-Remaining: 57
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Ratelimit-Reset: 1669400652
+2022-11-25 18:23:46 DEBUG headers:265 - << X-Sol: orig
+2022-11-25 18:23:46 DEBUG headers:265 - << Transfer-Encoding: chunked
+2022-11-25 18:23:46 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-11-25 18:23:46 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: text/html; charset=UTF-8
+2022-11-25 18:23:46 DEBUG wire:73 -  << "244[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UOs[0x9b]>[0x10][0xbd][0xfb]Sl[0xf4];[0xe4][0x12][0x5];[0xbf][0xd6][0x93][0x12]p[0xf][0xfd]s[0xeb][0x9f]is[0xe9]Q[0x91][0x16][0xd8]FHTZ;v;[0xfd][0xee][0x1d]L[0x12]c [0x99]Nu[0x81][0x9d][0xf7][0xf6][0xe9]iw[0x5][0xd9][0xc9][0xdb]Oo[0xae][0xbf]}~[0x7][0x15][0xd7]v5[0xcb][0xda][0x7]X[0xe5][0xca]\[0xa0][0x13][0xab][0x19][0x0]@V[0xa1]2[0xdd][0xeb]>[0xac][0x91][0x15][0xe8]J[0x85][0x88][0x9c][0x8b]5[0x17][0xf2]R[0xc]a[0xa7]j[0xcc][0xc5][0x86][0xf0][0xae][0xf1][0x81][0x5]h[0xef][0x18][0x1d][0xe7][0xe2][0x8e][0xc]W[0xb9][0xc1][\r]i[0x94][0xfb][0xe0][0xc][0xc8][0x11][0x93][0xb2]2je1_[0x88][0xd5][0xec][0xa0][0xc6][0xc4][0x16]W[0xd7][0xde][0xc3][0x7][0xe5]v[0xf0][0x5][0xac]1r[0xcc][0x92][0xe][0xe8]1O[0xa4][0x84][0xf7][0xde]q[0x4]){v,[0xb9][[0x8]hsa\[0x94]M[0xc0][0x2]YW[0x2][0xaa][0x80]E.[0x92][0xa4]hS[0xce][0xcb][0xc8][0x8a]I[0x9f]k_[0x8b]ar[0xc7][0xac][0x98][0x9b][0x98]>[0xf2][0xbd]/-[0xaa][0x86]b[0x9b][0x92][0xe8][0x18]_[0x17][0xaa]&[0xbb][0xcb]?[0xae][0x1d][0xb1][0x17][0xdd][0x96][0x91]w[0x16]c[0x85][0xc8]bh[0xf5][0xeb][0x1e]:[0xf6][0xba][0xa7][0x1f][0xe2]v[0xb5][\r]9[0x83][0x1b]ov[0xf0][0xeb][0x8]h[0xd7][0x8d][0xd2][0xb7]e[0xf0]kg[0xa4][0xf6][0xd6][0x87][0x14][0xfe]+[0x8a][0xe2]j[0xc4]{[0x0][0x97][0xff]/o[0x96][0x13]x{&[0xd9][0xf9]O[0xe1][0xb4];[0xc1][0xe9][0x19]D[0xe5][0xa2][0x8c][0x18][0xe8][0xa9][0x94];[0xa4][0xb2][0xe2][0x14][0x16][0xf3][0xf9][0x98]Q[0x1d][0xc0]M5[0x86]k[0x15]Jr)[0xc]2[0xcf][0x8e][0xc2][0xf3]bm[0xad][0xec][0xa4]&[\n]"
+2022-11-25 18:23:46 DEBUG wire:87 -  << "[0xf0][0xcc][0x1e]#![0x8b][[0xa9][0xd1]1[0x86][0x9]!e[0xa9]t[0x92][0x18][0xeb][0x98]B[0xc7][0x1a][6[0x14][0x1b][0xab]v)[0xb4]Zc[0xf8][0xfb]:2[0x15];y?[0xeb][0xd3]:C[[0x8d][0x8f][0xc4][0xe4][0x9d][0xc]XL[0xf8]"
+2022-11-25 18:23:46 DEBUG wire:87 -  << "z[0x80][0xd3]v[0x9e][0x14][0xd3][0x6][0x9f][0x97][0xd3][0xde][0xe0][0xd4][0xa0][0xf8]`0[0xc8][0xd0]U[0xeb][0xa2][0xd9]B[0xf4][0x96][0xcc][0x13]m[0x8d][0xf4][0x13]S[0xb8]X6[0x13][0x87]l[0x94]1[0xe4][0xca][0x14][0xe6][0xb0]x[0xd9]l[0xef][0x1f]c[0x1e][0xe3][0x96][0xe5][0xbe][0xaa]W[0x87][0x1a]cT[0xe5][0x94][0xf7][0x9e][0xa5][0xc5][0xe5][0xbf]m[0xf5][0xf0][0x96]%[0xbd][0x1b][0x96]%[0x87][0xef]Z[0xd6]^[0xb0][0xde]E4[0xb4][0x1]mU[0x8c][0xb9][0xe8][0xcf][0xcd]Q[0xb3]z[0x93])[0x8e][0xef]l?[0xbd]m[0xc8][0x0]n[0xd7][0x8b][0x8b]WG[0x19][0x89][0xa1][0xcd]j[0xf6][0xa4][0xca]}u[0x4][0xec][0xfd][0xe7][0xe2][0xb1][0xb][0x8b]y[0xb3][0xbd][0x9a][0xd0][0x1f]}0'v[0x9b][0x8][0xb3][0xa4]+D[0x96]t[0xff][0x83]?[0x0][0x0][0x0][0xff][0xff]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "d[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:87 -  << "[0x1][0x0][0x0][0xff][0xff]e[0x9e][0xd3][0xfd] [0x6][0x0][0x0]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "0[\r][\n]"
+2022-11-25 18:23:46 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:23:46 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="getAllEmployeesResponseBody" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.045"/>
+  <testcase name="server_Type" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.003"/>
+  <testcase name="statusCode" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.002">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.datadrivenapi.test.TC001_Get_All_EmployeeData.statusCode(TC001_Get_All_EmployeeData.java:41)
+</failure>
+    <system-out><![CDATA[2022-11-25 18:24:01 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-11-25 18:24:01 DEBUG DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-11-25 18:24:01 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-11-25 18:24:01 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-11-25 18:24:01 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-11-25 18:24:01 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-11-25 18:24:01 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
+2022-11-25 18:24:01 DEBUG DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-11-25 18:24:01 DEBUG wire:73 -  >> "[\r][\n]"
+2022-11-25 18:24:01 DEBUG headers:278 - >> GET /api/v1/employees HTTP/1.1
+2022-11-25 18:24:01 DEBUG headers:281 - >> Accept: */*
+2022-11-25 18:24:01 DEBUG headers:281 - >> Host: dummy.restapiexample.com
+2022-11-25 18:24:01 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-11-25 18:24:01 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)
+2022-11-25 18:24:01 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-11-25 18:24:02 DEBUG wire:73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Date: Fri, 25 Nov 2022 18:24:10 GMT[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Expires: Thu, 24 Nov 2022 18:24:11 GMT[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Pagespeed: off[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Response: 429[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Retry-After: 58[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Server: nginx/1.21.6[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Middleton-Response: 429[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Ratelimit-Reset: 1669400709[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:02 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:02 DEBUG headers:262 - << HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:02 DEBUG headers:265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+2022-11-25 18:24:02 DEBUG headers:265 - << Content-Encoding: gzip
+2022-11-25 18:24:02 DEBUG headers:265 - << Content-Type: text/html; charset=UTF-8
+2022-11-25 18:24:02 DEBUG headers:265 - << Date: Fri, 25 Nov 2022 18:24:10 GMT
+2022-11-25 18:24:02 DEBUG headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:02 DEBUG headers:265 - << Expires: Thu, 24 Nov 2022 18:24:11 GMT
+2022-11-25 18:24:02 DEBUG headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-11-25 18:24:02 DEBUG headers:265 - << Pagespeed: off
+2022-11-25 18:24:02 DEBUG headers:265 - << Response: 429
+2022-11-25 18:24:02 DEBUG headers:265 - << Retry-After: 58
+2022-11-25 18:24:02 DEBUG headers:265 - << Server: nginx/1.21.6
+2022-11-25 18:24:02 DEBUG headers:265 - << Vary: Accept-Encoding,User-Agent,Origin
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Endurance-Cache-Level: 2
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Ezoic-Cdn: Miss
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Middleton-Response: 429
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Nginx-Cache: WordPress
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Ratelimit-Limit: 60
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Ratelimit-Remaining: 57
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Ratelimit-Reset: 1669400709
+2022-11-25 18:24:02 DEBUG headers:265 - << X-Sol: orig
+2022-11-25 18:24:02 DEBUG headers:265 - << Transfer-Encoding: chunked
+2022-11-25 18:24:02 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-11-25 18:24:02 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: text/html; charset=UTF-8
+2022-11-25 18:24:02 DEBUG wire:73 -  << "244[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UOs[0x9b]>[0x10][0xbd][0xfb]Sl[0xf4];[0xe4][0x12][0x5];[0xbf][0xd6][0x93][0x12]p[0xf][0xfd]s[0xeb][0x9f]is[0xe9]Q[0x91][0x16][0xd8]FHTZ;v;[0xfd][0xee][0x1d]L[0x12]c [0x99]Nu[0x81][0x9d][0xf7][0xf6][0xe9]iw[0x5][0xd9][0xc9][0xdb]Oo[0xae][0xbf]}~[0x7][0x15][0xd7]v5[0xcb][0xda][0x7]X[0xe5][0xca]\[0xa0][0x13][0xab][0x19][0x0]@V[0xa1]2[0xdd][0xeb]>[0xac][0x91][0x15][0xe8]J[0x85][0x88][0x9c][0x8b]5[0x17][0xf2]R[0xc]a[0xa7]j[0xcc][0xc5][0x86][0xf0][0xae][0xf1][0x81][0x5]h[0xef][0x18][0x1d][0xe7][0xe2][0x8e][0xc]W[0xb9][0xc1][\r]i[0x94][0xfb][0xe0][0xc][0xc8][0x11][0x93][0xb2]2je1_[0x88][0xd5][0xec][0xa0][0xc6][0xc4][0x16]W[0xd7][0xde][0xc3][0x7][0xe5]v[0xf0][0x5][0xac]1r[0xcc][0x92][0xe][0xe8]1O[0xa4][0x84][0xf7][0xde]q[0x4]){v,[0xb9][[0x8]hsa\[0x94]M[0xc0][0x2]YW[0x2][0xaa][0x80]E.[0x92][0xa4]hS[0xce][0xcb][0xc8][0x8a]I[0x9f]k_[0x8b]ar[0xc7][0xac][0x98][0x9b][0x98]>[0xf2][0xbd]/-[0xaa][0x86]b[0x9b][0x92][0xe8][0x18]_[0x17][0xaa]&[0xbb][0xcb]?[0xae][0x1d][0xb1][0x17][0xdd][0x96][0x91]w[0x16]c[0x85][0xc8]bh[0xf5][0xeb][0x1e]:[0xf6][0xba][0xa7][0x1f][0xe2]v[0xb5][\r]9[0x83][0x1b]ov[0xf0][0xeb][0x8]h[0xd7][0x8d][0xd2][0xb7]e[0xf0]kg[0xa4][0xf6][0xd6][0x87][0x14][0xfe]+[0x8a][0xe2]j[0xc4]{[0x0][0x97][0xff]/o[0x96][0x13]x{&[0xd9][0xf9]O[0xe1][0xb4];[0xc1][0xe9][0x19]D[0xe5][0xa2][0x8c][0x18][0xe8][0xa9][0x94];[0xa4][0xb2][0xe2][0x14][0x16][0xf3][0xf9][0x98]Q[0x1d][0xc0]M5[0x86]k[0x15]Jr)[0xc]2[0xcf][0x8e][0xc2][0xf3]bm[0xad][0xec][0xa4]&[\n]"
+2022-11-25 18:24:02 DEBUG wire:87 -  << "[0xf0][0xcc][0x1e]#![0x8b][[0xa9][0xd1]1[0x86][0x9]!e[0xa9]t[0x92][0x18][0xeb][0x98]B[0xc7][0x1a][6[0x14][0x1b][0xab]v)[0xb4]Zc[0xf8][0xfb]:2[0x15];y?[0xeb][0xd3]:C[[0x8d][0x8f][0xc4][0xe4][0x9d][0xc]XL[0xf8]"
+2022-11-25 18:24:02 DEBUG wire:87 -  << "z[0x80][0xd3]v[0x9e][0x14][0xd3][0x6][0x9f][0x97][0xd3][0xde][0xe0][0xd4][0xa0][0xf8]`0[0xc8][0xd0]U[0xeb][0xa2][0xd9]B[0xf4][0x96][0xcc][0x13]m[0x8d][0xf4][0x13]S[0xb8]X6[0x13][0x87]l[0x94]1[0xe4][0xca][0x14][0xe6][0xb0]x[0xd9]l[0xef][0x1f]c[0x1e][0xe3][0x96][0xe5][0xbe][0xaa]W[0x87][0x1a]cT[0xe5][0x94][0xf7][0x9e][0xa5][0xc5][0xe5][0xbf]m[0xf5][0xf0][0x96]%[0xbd][0x1b][0x96]%[0x87][0xef]Z[0xd6]^[0xb0][0xde]E4[0xb4][0x1]mU[0x8c][0xb9][0xe8][0xcf][0xcd]Q[0xb3]z[0x93])[0x8e][0xef]l?[0xbd]m[0xc8][0x0]n[0xd7][0x8b][0x8b]WG[0x19][0x89][0xa1][0xcd]j[0xf6][0xa4][0xca]}u[0x4][0xec][0xfd][0xe7][0xe2][0xb1][0xb][0x8b]y[0xb3][0xbd][0x9a][0xd0][0x1f]}0'v[0x9b][0x8][0xb3][0xa4]+D[0x96]t[0xff][0x83]?[0x0][0x0][0x0][0xff][0xff]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "d[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:87 -  << "[0x1][0x0][0x0][0xff][0xff]e[0x9e][0xd3][0xfd] [0x6][0x0][0x0]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "0[\r][\n]"
+2022-11-25 18:24:02 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:02 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="statusLine" classname="com.datadrivenapi.test.TC001_Get_All_EmployeeData" time="0.004"/>
+  <testcase name="GetResponseBody" classname="com.datadrivenapi.test.TC003_Create_New_RecordInDB" time="0.004"/>
+  <testcase name="statusCode" classname="com.datadrivenapi.test.TC003_Create_New_RecordInDB" time="0.001"/>
+  <testcase name="statusLine" classname="com.datadrivenapi.test.TC003_Create_New_RecordInDB" time="0.003"/>
+  <testcase name="Content_Encoding" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.01">
+    <failure message="expected [br] but found [gzip]" type="java.lang.AssertionError">java.lang.AssertionError: expected [br] but found [gzip]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.datadrivenapi.test.TC004_Update_Employee_Record.Content_Encoding(TC004_Update_Employee_Record.java:79)
+</failure>
+    <system-out><![CDATA[2022-11-25 18:24:14 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:57815<->35.181.159.169:443 closed
+2022-11-25 18:24:14 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:53205<->35.181.159.169:443 closed
+2022-11-25 18:24:14 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:53198<->35.181.159.169:443 closed
+2022-11-25 18:24:14 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:57822<->35.181.159.169:443 closed
+2022-11-25 18:24:14 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-11-25 18:24:14 DEBUG DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-11-25 18:24:14 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-11-25 18:24:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-11-25 18:24:14 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-11-25 18:24:14 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-11-25 18:24:14 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
+2022-11-25 18:24:14 DEBUG DefaultClientConnection:274 - Sending request: PUT /api/v1/update/21 HTTP/1.1
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "PUT /api/v1/update/21 HTTP/1.1[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Content-Length: 45[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-11-25 18:24:14 DEBUG wire:73 -  >> "[\r][\n]"
+2022-11-25 18:24:14 DEBUG headers:278 - >> PUT /api/v1/update/21 HTTP/1.1
+2022-11-25 18:24:14 DEBUG headers:281 - >> Accept: */*
+2022-11-25 18:24:14 DEBUG headers:281 - >> Content-Type: application/json
+2022-11-25 18:24:14 DEBUG headers:281 - >> Content-Length: 45
+2022-11-25 18:24:14 DEBUG headers:281 - >> Host: dummy.restapiexample.com
+2022-11-25 18:24:14 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-11-25 18:24:14 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)
+2022-11-25 18:24:14 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-11-25 18:24:14 DEBUG wire:87 -  >> "{"name":"EnochP","salary":"16","age":"00833"}"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Date: Fri, 25 Nov 2022 18:24:24 GMT[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Expires: Thu, 24 Nov 2022 18:24:24 GMT[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Pagespeed: off[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Response: 429[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Retry-After: 40[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Server: Apache[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Vary: Accept-Encoding,Origin[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Middleton-Response: 429[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Ratelimit-Reset: 1669400704[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:15 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:15 DEBUG headers:262 - << HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:15 DEBUG headers:265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+2022-11-25 18:24:15 DEBUG headers:265 - << Content-Encoding: gzip
+2022-11-25 18:24:15 DEBUG headers:265 - << Content-Type: text/html; charset=UTF-8
+2022-11-25 18:24:15 DEBUG headers:265 - << Date: Fri, 25 Nov 2022 18:24:24 GMT
+2022-11-25 18:24:15 DEBUG headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:15 DEBUG headers:265 - << Expires: Thu, 24 Nov 2022 18:24:24 GMT
+2022-11-25 18:24:15 DEBUG headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-11-25 18:24:15 DEBUG headers:265 - << Pagespeed: off
+2022-11-25 18:24:15 DEBUG headers:265 - << Response: 429
+2022-11-25 18:24:15 DEBUG headers:265 - << Retry-After: 40
+2022-11-25 18:24:15 DEBUG headers:265 - << Server: Apache
+2022-11-25 18:24:15 DEBUG headers:265 - << Vary: Accept-Encoding,Origin
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Endurance-Cache-Level: 2
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Ezoic-Cdn: Miss
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Middleton-Response: 429
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Nginx-Cache: WordPress
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Ratelimit-Limit: 60
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Ratelimit-Remaining: 57
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Ratelimit-Reset: 1669400704
+2022-11-25 18:24:15 DEBUG headers:265 - << X-Sol: orig
+2022-11-25 18:24:15 DEBUG headers:265 - << Transfer-Encoding: chunked
+2022-11-25 18:24:15 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-11-25 18:24:15 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: text/html; charset=UTF-8
+2022-11-25 18:24:15 DEBUG wire:73 -  << "295[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UMo[0xe3]6[0x10][0xbd][0xfb]WL[0xd8]CZ [0xb4][0xec]45RER[0xe][0xfd][0xb8][0xf5][0x3]m.=[0x5]49[0x92][0x98]P[0xa4]J[0x8e]d+[0x8b][0xfd][0xef][0xb]YN[0xfc]!%X,/"[0xfd][0xde]<>[0xce][0xc][0xe9][0xe4][0xe2][0xd7][0xbf]~y[0xf8][0xef][0xef][0xdf][0xa0][0xa4][0xca]d[0xb3][0xa4][0xff][0x80][0x11][0xb6]H[0x19]Z[0x96][0xcd][0x0][0x0][0x92][0x12][0x85][0xca][0x92][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "I[0x80],[0x85][0xf]H)k([0xe7][0xb7]{B?[0xde]&[0x3][0xcf][0x8a][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "S[0xd6]j[0xdc][0xd4][0xce][0x13][0x3][0xe9],[0xa1][0xa5][0x94]m[0xb4][0xa2]2U[0xd8]j[0x89]|[0xb7][0xb8][0x2]m5iax[0x90][0xc2]`[0xba]d[0xd9][0xec][0xa0]F[0x9a][0xc]f[0xf][0xce][0xc1][0x1f][0xc2]v[0xf0][0xf][0xfe][0xdf]`[0xa0][0x90]D[0x3]p[0xc4][0xbc][0xe0][0x1c]~w[0x96][0x2]p~[0xf0][0x95][0x18]m[0x9f][0xc1][0xa3]I[0x99][0xb2][0x81][0xd7][0x1e]s$Y2(=[0xe6])[0x8b][0xa2][0xbc][0xf][0x99][0x17][0x81][0x4]i9[0x97][0xae]b[0xe7][0xc1][0x3][0xb3]$[0xaa]C[0xfc][0xc6]w[0xae]0(j[0x1d][0xfa][0x90]H[0x86]p[0x9f][0x8b]J[0x9b].[0xfd][0xb3][0xb1][0x9a][0x1c][0x1b][0xb6][0xc][0xd4][0x19][0xc]%"[0xb1]s[0xab][0xff][0xee][0xa0]S[0xaf];[0xfa]a[0xdd][0x8f][0xbe] W[0xb0]v[0xaa][0x83]O'@?[0xd6]B>[0x17][0xde]5Vq[0xe9][0x8c][0xf3]1|[0x97][0xe7][0xf9][0xdd][0x88][0xf7][\n]"
+2022-11-25 18:24:15 DEBUG wire:87 -  << "[0xae]~\[0xad]W[0x13]x&>[0xf8][0x8f][0xe1]r8[0xc1][0xe5][0x15][0x4]a[0x3][0xf][0xe8][0xf5]{![0x1b][0xd4]EI1,[0x17][0x8b]1[0xa3]<[0x80]m9[0x86]+[0xe1][0xb]mc8[0x8b][0xfc]<;Y[0xce][0xf3][0xc6][0x18]>HM$[0xe0][0x83]=FB[0x6][0xb7]\[0xa2]%[0xf4][0x13]B[0xc2][0xe8][0xc2]rMX[0x85][0x18][0x6][0xd6][0xd8][0xb2][0xd2][0xa1]6[0xa2][0x8b][0xa1][0xd7][0x1a][0xc3]OM [0x9d]w|[0xdf][0xeb][0xd3]:[0xe7][0xb6]j[0x17]4ig[0xb9][0xc7]|[0xc2][0xd7]+[0x1c][0xf7][0xfd]$H[0xb7][0xf8][0xb1][0x9c]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "t[\n]"
+2022-11-25 18:24:15 DEBUG wire:87 -  << "[0xa7][0x1a][0xc5]y[0x85][0x9e][0xfb]![[0xd7][0xf5][0x16][0x82]3Z[0xbd]S[0xd6][0xa0]_0[0x86][0xeb]U=q[0xc8]Z([0xa5]m[0x11][0xc3][0x2][0x96]?[0xd5][0xdb][0xfd]g[0xcc]#[0xdc][0x12][0xdf]e[0xf5][0xeb][0xf2]Pa[0x8][0xa2][0x98][0xf2]~diy[0xfb]m[[0xbd][0xce][0x92][0xe8][0xe8][0x86]%[0xd1][0xee]][0x1b][0xe6][0xfd][0x5];[0xba][0x88]J[0xb7] [0x8d][0x8]!e[0xc7]}sR[0xac][0xa3][0xce]d[0xa7]w[0xf6]8[0xbc]/[0xc8][0x19][0xdc][0x8f][0x9b][0xeb][0x9f]O""[0xa5][0xdb]l[0xf6][0xae][0xca]>;[0xc]v[0xfe]S[0xf6]V[0x85][0xe5][0xa2][0xde][0xde]M[0xe8][0x8f][0x1e][0xcc][0x89][0xdd]&[0x96]I[0x90]^[0xd7][0x4][0xd4][0xd5][0x98][0xb2]>[0xb1][0xd1][0x93]h[0xc5][0xf0]+[0x3]g[0x8d][0x13]*e[0x8f][0x8f][0xf8]"[0xcd][0xbc][0x14]V[0x19][0xfc][0x9e]|[0x83]?[0xdc]1[0x10][0xa1][0xb3][0x12][0x82][0x97])[0x8b][0x1a][0xd2]F[0x8a][0x16][0x1f][0xfb][0xd7]Q[[0x19][0xed][0x2]6[0xb8][0xae][0xef][0xe5]:[0xbd]aY[0x12][\r][0xa2]Y[0x12][\r][0xb9]O[0xa2][0xe1]/[0xe8][0xb][0x0][0x0][0x0][0xff][0xff]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "d[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:87 -  << "[0x1][0x0][0x0][0xff][0xff]QU4[0xb5][0x93][0x6][0x0][0x0]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "0[\r][\n]"
+2022-11-25 18:24:15 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:15 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="GetResponseBody" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.067">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.datadrivenapi.test.TC004_Update_Employee_Record.GetResponseBody(TC004_Update_Employee_Record.java:38)
+</failure>
+    <system-out><![CDATA[2022-11-25 18:24:18 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-11-25 18:24:18 DEBUG DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-11-25 18:24:18 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-11-25 18:24:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-11-25 18:24:18 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-11-25 18:24:18 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-11-25 18:24:18 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
+2022-11-25 18:24:18 DEBUG DefaultClientConnection:274 - Sending request: PUT /api/v1/update/21 HTTP/1.1
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "PUT /api/v1/update/21 HTTP/1.1[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Content-Length: 45[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-11-25 18:24:18 DEBUG wire:73 -  >> "[\r][\n]"
+2022-11-25 18:24:18 DEBUG headers:278 - >> PUT /api/v1/update/21 HTTP/1.1
+2022-11-25 18:24:18 DEBUG headers:281 - >> Accept: */*
+2022-11-25 18:24:18 DEBUG headers:281 - >> Content-Type: application/json
+2022-11-25 18:24:18 DEBUG headers:281 - >> Content-Length: 45
+2022-11-25 18:24:18 DEBUG headers:281 - >> Host: dummy.restapiexample.com
+2022-11-25 18:24:18 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-11-25 18:24:18 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14)
+2022-11-25 18:24:18 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-11-25 18:24:18 DEBUG wire:87 -  >> "{"name":"EnochP","salary":"16","age":"00833"}"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Date: Fri, 25 Nov 2022 18:24:28 GMT[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Expires: Thu, 24 Nov 2022 18:24:28 GMT[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Pagespeed: off[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Response: 429[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Retry-After: 36[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Server: Apache[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Vary: Accept-Encoding,Origin[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Middleton-Response: 429[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Ratelimit-Reset: 1669400704[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:19 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:19 DEBUG headers:262 - << HTTP/1.1 429 Too Many Requests
+2022-11-25 18:24:19 DEBUG headers:265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+2022-11-25 18:24:19 DEBUG headers:265 - << Content-Encoding: gzip
+2022-11-25 18:24:19 DEBUG headers:265 - << Content-Type: text/html; charset=UTF-8
+2022-11-25 18:24:19 DEBUG headers:265 - << Date: Fri, 25 Nov 2022 18:24:28 GMT
+2022-11-25 18:24:19 DEBUG headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:19 DEBUG headers:265 - << Expires: Thu, 24 Nov 2022 18:24:28 GMT
+2022-11-25 18:24:19 DEBUG headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-11-25 18:24:19 DEBUG headers:265 - << Pagespeed: off
+2022-11-25 18:24:19 DEBUG headers:265 - << Response: 429
+2022-11-25 18:24:19 DEBUG headers:265 - << Retry-After: 36
+2022-11-25 18:24:19 DEBUG headers:265 - << Server: Apache
+2022-11-25 18:24:19 DEBUG headers:265 - << Vary: Accept-Encoding,Origin
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Endurance-Cache-Level: 2
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Ezoic-Cdn: Miss
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Middleton-Response: 429
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Nginx-Cache: WordPress
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Ratelimit-Limit: 60
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Ratelimit-Remaining: 57
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Ratelimit-Reset: 1669400704
+2022-11-25 18:24:19 DEBUG headers:265 - << X-Sol: orig
+2022-11-25 18:24:19 DEBUG headers:265 - << Transfer-Encoding: chunked
+2022-11-25 18:24:19 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-11-25 18:24:19 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: text/html; charset=UTF-8
+2022-11-25 18:24:19 DEBUG wire:73 -  << "295[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UMo[0xe3]6[0x10][0xbd][0xfb]WL[0xd8]CZ [0xb4][0xec]45RER[0xe][0xfd][0xb8][0xf5][0x3]m.=[0x5]49[0x92][0x98]P[0xa4]J[0x8e]d+[0x8b][0xfd][0xef][0xb]YN[0xfc]!%X,/"[0xfd][0xde]<>[0xce][0xc][0xe9][0xe4][0xe2][0xd7][0xbf]~y[0xf8][0xef][0xef][0xdf][0xa0][0xa4][0xca]d[0xb3][0xa4][0xff][0x80][0x11][0xb6]H[0x19]Z[0x96][0xcd][0x0][0x0][0x92][0x12][0x85][0xca][0x92][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "I[0x80],[0x85][0xf]H)k([0xe7][0xb7]{B?[0xde]&[0x3][0xcf][0x8a][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "S[0xd6]j[0xdc][0xd4][0xce][0x13][0x3][0xe9],[0xa1][0xa5][0x94]m[0xb4][0xa2]2U[0xd8]j[0x89]|[0xb7][0xb8][0x2]m5iax[0x90][0xc2]`[0xba]d[0xd9][0xec][0xa0]F[0x9a][0xc]f[0xf][0xce][0xc1][0x1f][0xc2]v[0xf0][0xf][0xfe][0xdf]`[0xa0][0x90]D[0x3]p[0xc4][0xbc][0xe0][0x1c]~w[0x96][0x2]p~[0xf0][0x95][0x18]m[0x9f][0xc1][0xa3]I[0x99][0xb2][0x81][0xd7][0x1e]s$Y2(=[0xe6])[0x8b][0xa2][0xbc][0xf][0x99][0x17][0x81][0x4]i9[0x97][0xae]b[0xe7][0xc1][0x3][0xb3]$[0xaa]C[0xfc][0xc6]w[0xae]0(j[0x1d][0xfa][0x90]H[0x86]p[0x9f][0x8b]J[0x9b].[0xfd][0xb3][0xb1][0x9a][0x1c][0x1b][0xb6][0xc][0xd4][0x19][0xc]%"[0xb1]s[0xab][0xff][0xee][0xa0]S[0xaf];[0xfa]a[0xdd][0x8f][0xbe] W[0xb0]v[0xaa][0x83]O'@?[0xd6]B>[0x17][0xde]5Vq[0xe9][0x8c][0xf3]1|[0x97][0xe7][0xf9][0xdd][0x88][0xf7][\n]"
+2022-11-25 18:24:19 DEBUG wire:87 -  << "[0xae]~\[0xad]W[0x13]x&>[0xf8][0x8f][0xe1]r8[0xc1][0xe5][0x15][0x4]a[0x3][0xf][0xe8][0xf5]{![0x1b][0xd4]EI1,[0x17][0x8b]1[0xa3]<[0x80]m9[0x86]+[0xe1][0xb]mc8[0x8b][0xfc]<;Y[0xce][0xf3][0xc6][0x18]>HM$[0xe0][0x83]=FB[0x6][0xb7]\[0xa2]%[0xf4][0x13]B[0xc2][0xe8][0xc2]rMX[0x85][0x18][0x6][0xd6][0xd8][0xb2][0xd2][0xa1]6[0xa2][0x8b][0xa1][0xd7][0x1a][0xc3]OM [0x9d]w|[0xdf][0xeb][0xd3]:[0xe7][0xb6]j[0x17]4ig[0xb9][0xc7]|[0xc2][0xd7]+[0x1c][0xf7][0xfd]$H[0xb7][0xf8][0xb1][0x9c]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "t[\n]"
+2022-11-25 18:24:19 DEBUG wire:87 -  << "[0xa7][0x1a][0xc5]y[0x85][0x9e][0xfb]![[0xd7][0xf5][0x16][0x82]3Z[0xbd]S[0xd6][0xa0]_0[0x86][0xeb]U=q[0xc8]Z([0xa5]m[0x11][0xc3][0x2][0x96]?[0xd5][0xdb][0xfd]g[0xcc]#[0xdc][0x12][0xdf]e[0xf5][0xeb][0xf2]Pa[0x8][0xa2][0x98][0xf2]~diy[0xfb]m[[0xbd][0xce][0x92][0xe8][0xe8][0x86]%[0xd1][0xee]][0x1b][0xe6][0xfd][0x5];[0xba][0x88]J[0xb7] [0x8d][0x8]!e[0xc7]}sR[0xac][0xa3][0xce]d[0xa7]w[0xf6]8[0xbc]/[0xc8][0x19][0xdc][0x8f][0x9b][0xeb][0x9f]O""[0xa5][0xdb]l[0xf6][0xae][0xca]>;[0xc]v[0xfe]S[0xf6]V[0x85][0xe5][0xa2][0xde][0xde]M[0xe8][0x8f][0x1e][0xcc][0x89][0xdd]&[0x96]I[0x90]^[0xd7][0x4][0xd4][0xd5][0x98][0xb2]>[0xb1][0xd1][0x93]h[0xc5][0xf0]+[0x3]g[0x8d][0x13]*e[0x8f][0x8f][0xf8]"[0xcd][0xbc][0x14]V[0x19][0xfc][0x9e]|[0x83]?[0xdc]1[0x10][0xa1][0xb3][0x12][0x82][0x97])[0x8b][0x1a][0xd2]F[0x8a][0x16][0x1f][0xfb][0xd7]Q[[0x19][0xed][0x2]6[0xb8][0xae][0xef][0xe5]:[0xbd]aY[0x12][\r][0xa2]Y[0x12][\r][0xb9]O[0xa2][0xe1]/[0xe8][0xb][0x0][0x0][0x0][0xff][0xff]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "d[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:87 -  << "[0x1][0x0][0x0][0xff][0xff]QU4[0xb5][0x93][0x6][0x0][0x0]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "0[\r][\n]"
+2022-11-25 18:24:19 DEBUG wire:73 -  << "[\r][\n]"
+2022-11-25 18:24:19 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-11-25 18:24:22 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@ebda593
+2022-11-25 18:24:22 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+body is :<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="Get_ResponseTime" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.006"/>
+  <testcase name="content_Type" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.009"/>
+  <testcase name="server_Type" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.003"/>
+  <testcase name="statusCode" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.004"/>
+  <testcase name="statusLine" classname="com.datadrivenapi.test.TC004_Update_Employee_Record" time="0.002"/>
+</testsuite>

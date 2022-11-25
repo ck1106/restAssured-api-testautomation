@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restApiTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.datadrivenapi.utilities.Listener"/>
+  </listeners>
+  <test thread-count="5" name="restApiTest(failed)" verbose="0">
+    <classes>
+      <class name="com.datadrivenapi.test.TC004_Update_Employee_Record">
+        <methods>
+          <include name="Content_Encoding"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="GetResponseBody"/>
+        </methods>
+      </class> <!-- com.datadrivenapi.test.TC004_Update_Employee_Record -->
+      <class name="com.datadrivenapi.test.TC001_Get_All_EmployeeData">
+        <methods>
+          <include name="statusCode"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="content_Type"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.datadrivenapi.test.TC001_Get_All_EmployeeData -->
+    </classes>
+  </test> <!-- restApiTest(failed) -->
+</suite> <!-- Failed suite [restApiTestSuite] -->

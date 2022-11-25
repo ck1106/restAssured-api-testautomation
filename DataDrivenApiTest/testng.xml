@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="restApiTestSuite">
+    <listeners>
+        <listener class-name="com.datadrivenapi.utilities.Listener"></listener>
+    </listeners>
+    <test thread-count="5" name="restApiTest">
+     <classes>
+         <class name="com.datadrivenapi.test.TC001_Get_All_EmployeeData" />
+         <class name="com.datadrivenapi.test.TC003_Create_New_RecordInDB"/>
+         <class name="com.datadrivenapi.test.TC004_Update_Employee_Record"/>
+     </classes>
+ </test>   
+</suite>
