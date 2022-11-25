@@ -7,13 +7,10 @@ import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.json.simple.JSONObject;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.FileInputStream;
@@ -26,11 +23,12 @@ import java.util.Properties;
  * Bernard Akondoh
  * 11/21/2022
  */
+
 public class baseTest {
     public static RequestSpecification httpRequest;
     public static Response response;
     public static Properties prop;
-    public Logger logger;
+
 
 
     //load configuration file :: reads configuration file (loading configuration)
