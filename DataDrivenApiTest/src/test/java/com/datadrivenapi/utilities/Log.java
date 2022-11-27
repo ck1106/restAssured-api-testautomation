@@ -2,6 +2,11 @@ package com.datadrivenapi.utilities;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Bernard Akondoh
+ * 11/21/2022
+ */
+
 public class Log {
 
 
