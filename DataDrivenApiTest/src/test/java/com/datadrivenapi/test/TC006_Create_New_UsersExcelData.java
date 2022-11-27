@@ -18,9 +18,7 @@ import java.io.IOException;
  */
 
 public class TC006_Create_New_UsersExcelData extends baseTest {
-
-
-
+    //constructor
     public  TC006_Create_New_UsersExcelData(){
         super();
     }
